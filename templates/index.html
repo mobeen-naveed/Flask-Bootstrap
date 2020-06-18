@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container-fluid">
+    <div id="carouselExampleCaptions" class="row carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/imgs/home-1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gold Rings</h5>
+                    <p>We have a large selection of gold items.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/imgs/home-2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gold and Diamond</h5>
+                    <p>Visit us and see our collection of Gold and Diamond Rings.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/imgs/home-3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-muted">Gift Your Loved Ones</h5>
+                    <p class="text-muted">Give your loved ones token of Gold.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/imgs/home-4.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Customize as per your Desire</h5>
+                    <p>Come to us and we will make a ring that suits as per your choice.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/imgs/home-5.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sell your items</h5>
+                    <p>Sell your gold items at a good price.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+{% endblock content %}
